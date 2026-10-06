@@ -5,6 +5,16 @@
             "name": "Attach to Unity",
             "type": "vstuc",
             "request": "attach"
+        },
+        {
+            "name": "Attach to Unity Editor with Unity Code",
+            "type": "unity-code",
+            "request": "attach"
+        },
+        {
+            "name": "Attach to Unity Editor with Dot Rush",
+            "type": "unity",
+            "request": "attach"
         }
-     ]
+    ]
 }

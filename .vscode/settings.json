@@ -60,7 +60,7 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
-        "*.unity": "yaml",
+        "*.unity": "yaml"
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
@@ -68,5 +68,8 @@
         "*.slnx": "*.csproj"
     },
     "dotnet.defaultSolution": "Portfolio_ExorciseThisDungeon.slnx",
-    "dotnet.enableWorkspaceBasedDevelopment": false
+    "dotnet.enableWorkspaceBasedDevelopment": false,
+    "dotrush.roslyn.projectOrSolutionFiles": [
+        "D:\\Rety\\Unity\\Projects\\Portfolio_ExorciseThisDungeon\\Portfolio_ExorciseThisDungeon.slnx"
+    ]
 }

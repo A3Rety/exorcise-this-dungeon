@@ -8,4 +8,4 @@
 ## How to Run 
 1. Clone repo
 2. Open in Unity 6.0+
-3. Open 'Assets/Scenes/Main.unity'
+3. Open 'Assets/ExorciseTheDungeon/Scenes/Main.unity'

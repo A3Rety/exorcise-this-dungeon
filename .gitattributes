@@ -15,20 +15,20 @@
 # [attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml linguist-generated
 
 # Unity source files
-*.cginc                 text
-*.compute               text linguist-language=hlsl
-*.cs                    text eol=lf diff=csharp merge=text linguist-language=csharp
-*.hlsl                  text linguist-language=hlsl
-*.raytrace              text linguist-language=hlsl
-*.shader                text
+*.cginc                 text linguist-generated
+*.compute               text linguist-language=hlsl linguist-generated
+*.cs                    text eol=lf diff=csharp merge=text linguist-language=csharp linguist-detectable=true
+*.hlsl                  text linguist-language=hlsl linguist-generated
+*.raytrace              text linguist-language=hlsl linguist-generated
+*.shader                text linguist-generated
 
 # Unity JSON files
 *.asmdef                unity-json
 *.asmref                unity-json
 *.index                 unity-json
 *.inputactions          unity-json
-*.shadergraph           unity-json
-*.shadersubgraph        unity-json
+*.shadergraph           unity-json linguist-generated
+*.shadersubgraph        unity-json linguist-generated
 
 # Unity UI Toolkit files
 *.tss                   text diff=css linguist-language=css
@@ -69,6 +69,9 @@
 # Exclude from GitHub stats and diffs: third-party plugins, packages lock file
 Assets/Plugins/**           linguist-generated
 Packages/packages-lock.json linguist-generated
+
+# Include in GitHub statd and diffs
+Assets/ExorciseThisDungeon/** -linguist-generated
 
 # Unity LFS
 *.cubemap               lfs

@@ -13,6 +13,7 @@
 # Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
 # See: https://github.com/github/gitignore/tree/main/Global
 #
+# Last manual Update 19.11.2026
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -46,6 +47,7 @@
 .vs/
 
 # Visual Studio Code
+.vsconfig
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -128,3 +130,7 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Unity Crash Recovery generated files
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
